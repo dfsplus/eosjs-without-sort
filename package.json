@@ -1,5 +1,5 @@
 {
-  "name": "eosjs-nosort",
+  "name": "eosjs-without-sort",
   "version": "16.0.9",
   "description": "General purpose library for the EOS blockchain.",
   "main": "lib/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs.git"
+    "url": "git+https://github.com/newdex/eosjs-without-sort.git"
   },
   "keywords": [
     "EOS",
@@ -33,9 +33,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs/issues"
+    "url": "https://github.com/newdex/eosjs-without-sort"
   },
-  "homepage": "https://github.com/EOSIO/eosjs#readme",
+  "homepage": "https://github.com/newdex/eosjs-without-sort",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
