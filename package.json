@@ -1,6 +1,6 @@
 {
   "name": "eosjs-without-sort",
-  "version": "16.0.10",
+  "version": "16.0.11",
   "description": "General purpose library for the EOS blockchain.",
   "main": "lib/index.js",
   "files": [
