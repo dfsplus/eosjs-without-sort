@@ -12,6 +12,7 @@ const schema = require('./schema')
 const token = require('./schema/eosio.token.abi.json')
 const system = require('./schema/eosio.system.abi.json')
 const eosio_null = require('./schema/eosio.null.abi.json')
+const eosio_msig = require('./schema/eosio.msig.abi.json')
 
 const Eos = (config = {}) => {
   const configDefaults = {
@@ -79,6 +80,7 @@ function createEos(config) {
   abis.push(abiCache.abi('eosio.null', eosio_null))
   abis.push(abiCache.abi('eosio.token', token))
   abis.push(abiCache.abi('eosio', system))
+  abis.push(abiCache.abi('eosio.msig', eosio_msig));
 
   if(!config.chainId) {
     config.chainId = 'cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f'
